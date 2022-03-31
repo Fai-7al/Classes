@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.twitter_icon{
+    margin-left: 140px;
+    margin-top: 40px;
+    color: white;
+}

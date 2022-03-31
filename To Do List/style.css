@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: skyblue;
+    height: 60px;
+}
+.todo{
+    /* background-color: blue; */
+    font-weight: bold;
+    position: absolute;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.add{
+    height: 60px;
+    /* background-color: blueviolet; */
+    display: flex;
+    right: 10px;
+    justify-content: end;
+    align-items: center;
+}
+.fotter{
+    background-color: black;
+    height: 75px;
+    display: flex;
+    position: relative;
+    top: 500px;
+    color: white;
+}
+.fotter_font{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+    position: absolute;
+    display: none;
+    background-color: beige;
+    height: 300px;
+    padding: 5px;
+    width: 300px;
+    top: 150px;
+    left: 40%;
+}
+.btn-add{
+    display: flex;
+    justify-content: center;
+}
+.x-font{
+    background-color: aliceblue;
+    width: 12px;
+    left: 95%;
+    position: absolute;
+    font-weight: bolder;
+    margin: 2px;
+}
+.add-detail{
+    background-color: lightblue;
+    
+    margin: 10px;
+    width: 250px;
+    padding: 7px;
+}
+.all main{
+    /* background-color: red; */
+    display: flex;
+}
+.add-detail header{
+    /* background-color: aqua; */
+    margin-right: 5px;
+    display: flex;
+    justify-content: end;
+}
+.add-detail header .icon{
+    margin: 5px;
+    /* background-color: blue; */
+}
+.add-detail header .add-heading{
+    /* background-color: aqua; */
+    display: flex;
+    width: 170px;
+}
+
